@@ -1,0 +1,27 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_name">QuizApp</string>
+    <string name="name">Name</string>
+    <string name="age">Enter your age</string>
+    <string name="question_1">1: What is the highest mountain in the world?</string>
+    <string name="answer_1">Mount Everest</string>
+    <string name="answer_2">K2</string>
+    <string name="question_2">2: What color do you like?</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="purple">Purple</string>
+    <string name="question_3">3: What is your opinion about this app?</string>
+    <string name="opinion">Write your opinion here</string>
+    <string name="question_4">4: What animal do you like the most?</string>
+    <string name="cats">Cats</string>
+    <string name="dogs">Dogs</string>
+    <string name="lizards">Lizards</string>
+    <string name="question_5">5: Which is the first Lord of the Rings movie?</string>
+    <string name="two_towers">The Two Towers</string>
+    <string name="return_king">The Return of the King</string>
+    <string name="fellowship">The Fellowship of the Ring</string>
+    <string name="submit_quiz">Submit Quiz</string>
+    <string name="error_decrement">You have to be at least 7 years old</string>
+    <string name="error_increment">You cannot enter more than 120 years</string>
+    <string name="quiz_summary_email_subject">Quiz answers for <xliff:g id="name" example="Amy"></xliff:g></string>
+</resources>
