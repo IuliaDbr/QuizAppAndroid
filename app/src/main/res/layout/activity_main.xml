@@ -82,6 +82,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/sanchez_italic"
@@ -115,6 +116,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
             android:fontFamily="@font/sanchez_italic"
             android:text="@string/question_2"
             android:textColor="#212121"
@@ -128,7 +130,7 @@
             android:layout_marginLeft="9dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/sanchez_italic"
-            android:text="@string/blue"
+            android:text="@string/saiga"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:visibility="visible" />
 
@@ -139,7 +141,7 @@
             android:layout_marginLeft="9dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/sanchez_italic"
-            android:text="@string/red"
+            android:text="@string/koala"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:visibility="visible" />
 
@@ -150,16 +152,18 @@
             android:layout_marginLeft="9dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/sanchez_italic"
-            android:text="@string/purple"
+            android:text="@string/boar"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:visibility="visible" />
         />
 
         <TextView
+            android:id="@+id/question_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/sanchez_italic"
             android:text="@string/question_3"
@@ -173,7 +177,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/sanchez_italic"
-            android:hint="@string/opinion"
+            android:hint="@string/answerText"
             android:inputType="textCapWords"
             android:textSize="14sp" />
 
@@ -181,6 +185,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
             android:layout_marginLeft="10dp"
             android:fontFamily="@font/sanchez_italic"
             android:text="@string/question_4"
@@ -195,7 +200,7 @@
             android:layout_marginLeft="9dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/sanchez_italic"
-            android:text="@string/cats"
+            android:text="@string/lions"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:visibility="visible" />
 
@@ -206,7 +211,7 @@
             android:layout_marginLeft="9dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/sanchez_italic"
-            android:text="@string/dogs"
+            android:text="@string/cows"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:visibility="visible" />
 
@@ -218,7 +223,7 @@
             android:layout_marginLeft="9dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/sanchez_italic"
-            android:text="@string/lizards"
+            android:text="@string/piranhas"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:visibility="visible" />
 
@@ -228,6 +233,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
             android:fontFamily="@font/sanchez_italic"
             android:text="@string/question_5"
             android:textColor="#212121"
